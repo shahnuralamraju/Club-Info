@@ -41,6 +41,7 @@
     width: 50px;
     height: 50px;
 }
+
 /* Adding media queries for mobile */
 
 @media only screen and (max-width:480px) {

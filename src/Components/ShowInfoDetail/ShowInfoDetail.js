@@ -72,6 +72,8 @@ const ShowInfoDetail = () => {
                 <a href={strWebsite}><img src={Website} alt="" /></a>
 
             </div>
+            <a href="/"><h6 className="text-center mb-4">Home</h6></a>
+
         </div>
     );
 };
