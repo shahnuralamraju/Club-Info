@@ -1,0 +1,38 @@
+.contain{
+    background: linear-gradient(246deg, rgba(213,55,223,1) 0%, rgb(8, 81, 216) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    border-radius: 20px;
+    color:#fff;
+}
+.description ,.contain{
+    width: 70%;
+    margin: 2% 15%;
+}
+.description p{
+    text-align: justify;
+    color: rgb(241, 232, 232);
+}
+.detail-container{
+    width: 25%;
+}
+.img-container{
+    width: 35%;
+}
+.img-container img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width:480px) {
+    .contain{
+        display: flex;
+        flex-direction: column;
+        justify-content: none;
+        align-items: center;
+        width: 95%;
+    }
+    
+}

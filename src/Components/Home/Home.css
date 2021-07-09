@@ -1,0 +1,44 @@
+.cover-div{
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(191deg, rgba(71, 2, 71, 0.51154) 50%, rgba(4, 104, 97, 0.6) 100%),
+              url('../../home-cover8.jpg') no-repeat center center / cover;
+
+    display: flex;          
+    align-items: center;
+    justify-content: center;
+}
+.cover-div h1{
+    color: white;
+    font-size: 3em;
+    font-weight: bolder;
+}
+.cover-div img{
+    width: 150px;
+    height: 150px;
+}
+.second-div{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 88%;
+    margin: 2% 6%;
+}
+
+@media only screen and (max-width: 480px) {
+    .second-div {
+      margin: 2% auto;
+      width: 100%;
+    }
+    .teamInfo-div{
+        width: 100%;
+        padding: 15px;
+        border-radius: 8px;
+    }
+    /* .contain{
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+    } */
+    
+  }
