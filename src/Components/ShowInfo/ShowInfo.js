@@ -4,7 +4,6 @@ import './ShowInfo.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 const ShowInfo = (props) => {
-    console.log(props.info);
     const { strTeamBadge, strTeam, strSport, idTeam } = props.info;
     return (
         <div className='teamInfo-div'>
@@ -12,7 +11,8 @@ const ShowInfo = (props) => {
             <h3>{strTeam}</h3>
             <h6>Sport Type: {strSport}</h6>
             <Link to={"/club/"+idTeam}>
-            <button className="btn btn-primary">Explore <FontAwesomeIcon icon={faArrowRight} /></button>
+            <button className="btn btn-primary main-btn">
+                Explore <FontAwesomeIcon className="ml-2" icon={faArrowRight} /></button>
             </Link>
         </div>
     );

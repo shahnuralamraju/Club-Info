@@ -6,17 +6,17 @@
     color: rgb(255, 255, 255);
     width: 300px;
     height: 300px;
-    background: linear-gradient( #ff00ccad ,#333399);
+    background: linear-gradient( #ff00f28e ,#333399);
     margin: 15px;
-    border-radius: 10px;
-    /* border: 1px solid rgb(255, 255, 255); */
+    border-radius: 5px;
 }
 
+.main-btn{
+    width: 130px;
+}
 .teamInfo-div img{
     width: 100px;
     height: 100px;
 }
-/* .teamInfo-div h6{
-    color: rgb(151, 146, 146);
-} */
+
 
