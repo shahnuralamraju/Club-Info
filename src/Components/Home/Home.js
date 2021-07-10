@@ -12,7 +12,7 @@ const Home = () => {
     return (
         <div>
             <div className="cover-div">
-                 <h1>Club Info</h1>  
+                 <h1>CLUB  INFO</h1>  
             </div>
             <div className="second-div">
                 {

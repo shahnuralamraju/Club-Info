@@ -12,7 +12,7 @@ const ShowInfo = (props) => {
             <h3>{strTeam}</h3>
             <h6>Sport Type: {strSport}</h6>
             <Link to={"/club/"+idTeam}>
-            <button className="btn btn-primary main-btn">
+            <button className="main-btn">
                 Explore <FontAwesomeIcon className="ml-2" icon={faArrowRight} /></button>
             </Link>
         </div>

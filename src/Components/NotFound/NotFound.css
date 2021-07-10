@@ -1,0 +1,33 @@
+.notfound-div{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+.notfound-div a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+.notfound-div a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width:480px) {
+    .notfound-div{
+        width: 85%;
+        margin: auto;
+    }
+    .notfound-div img{
+        width: 100%;
+        
+    }
+    .notfound-div h1{
+        font-size: 28px;
+        text-align: center;
+    }
+}

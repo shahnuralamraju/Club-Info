@@ -6,13 +6,24 @@
     color: rgb(255, 255, 255);
     width: 300px;
     height: 300px;
-    background: linear-gradient( #ff00f28e ,#333399);
+    /* background: linear-gradient( #ff00f28e ,#333399); */
+    background: #0808b1;
+    box-shadow:  17px 17px 34px #08087f,
+             -17px -17px 34px #1313a5;
     margin: 15px;
     border-radius: 5px;
+    
 }
-
 .main-btn{
-    width: 130px;
+    width: 140px;
+    font-size: 15px;
+    color: white;
+    border: none;
+    line-height: 40px;
+    border-radius: 5px;
+    background: #0808B1;
+    box-shadow:  5px 5px 10px #07079e,
+             -5px -5px 10px #0909c4;
 }
 .teamInfo-div img{
     width: 100px;

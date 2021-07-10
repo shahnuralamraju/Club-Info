@@ -8,7 +8,11 @@
     border-radius: 10px;
     color:#fff;
 }
-
+.hider{
+    background: #2C4CD9;
+    box-shadow:  5px -5px 10px #2744c1,
+                 -5px 5px 10px #3154f1
+}
 .description ,.share-container{
     width: 70%;
     margin: 2% 15%;
@@ -41,7 +45,9 @@
     width: 50px;
     height: 50px;
 }
-
+.btn-home{
+    margin-left: 45%;
+}
 /* Adding media queries for mobile */
 
 @media only screen and (max-width:480px) {
@@ -62,6 +68,15 @@
     .img-container{
         margin-top: 10%;
         width: 100%;
+    }
+    .social-icon{
+        width: 55%;
+    }
+    .btn-home{
+        margin-left: 28%;
+        margin-bottom: 8%;
+        margin-top: 8%;
+       
     }
     
 }

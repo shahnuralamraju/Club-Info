@@ -51,7 +51,7 @@ const ShowInfoDetail = () => {
                     <h5><FontAwesomeIcon className="mr-2" icon={faFutbol} />Sport Type: {strSport}</h5>
                     <h5><FontAwesomeIcon className="mr-2" icon={faMars} /> Gender: {strGender}</h5>
                     <button onClick={() => setIsHide(!isHide)}
-                        className="btn btn-primary">See {isHide ? Jersey : Team}
+                        className="main-btn hider">See {isHide ? Jersey : Team}
                         <FontAwesomeIcon className="ml-2" icon={faArrowRight} />
                     </button>
                 </div>
@@ -72,7 +72,10 @@ const ShowInfoDetail = () => {
                 <a href={strWebsite}><img src={Website} alt="" /></a>
 
             </div>
-            <a href="/"><h6 className="text-center mb-4">Home</h6></a>
+            <button className="btn btn-outline-primary btn-home mb-5">
+                <a className="text-light text-decoration-none" href="/">BACK TO HOME</a>
+                <FontAwesomeIcon className="ml-2 text-light" icon={faArrowRight}></FontAwesomeIcon>
+                </button>
 
         </div>
     );
